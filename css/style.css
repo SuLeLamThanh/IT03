@@ -1,0 +1,12 @@
+p,h1{color: red;} /*  chinh no */
+div p{color: blue;} /*  tat ca phan con p trong no  */
+div > p {background-color: cornflowerblue;}/*  phan con p tu div toi gan nhat */
+div +p{font-family: Arial, Helvetica, sans-serif;font-size: large;}/* 1 p ngang hang voi no */
+/* div ~ p {text-align: center;}  tat ca p ngang hang voi no */
+.test{font-style: italic;}
+p.test {font-weight: bolder;}
+input[type=datetime-local]{width: 100%;} /* sat nhau thi cua no */
+input [type=datetime-local]{width: 100%;} /* roi ra thi tat ca nam ben trong input no */
+#dank{text-decoration: overline;}
+div.items{width: 50%;}
+div.thumb > img{width: 100%;}
