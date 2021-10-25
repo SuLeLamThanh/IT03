@@ -1,0 +1,45 @@
+*{font-family: Arial, Helvetica, sans-serif;box-sizing: border-box;}
+ul.tab{list-style-type: none;padding: 0;margin: 0;display: flex;background-color: #CC3300;}
+nav>ul.tab >li {width: 16.66%;text-align: center;color: white;border-right: 1px solid white;position: relative;}
+ul.tab>li>a{text-decoration: none;display: block;color: white;padding: 14px}
+ul.tab>li span{display: block;}
+ul.submenu > li >a{text-decoration: none;color: white;line-height: 1.7;}
+header{background:linear-gradient(orange,#CC3300);margin-top: 10px;}
+div.my-header{display: flex;align-items: center;}
+.col10{width: 10%;}
+.col70{width: 70%;}
+.col20{width: 20%;}
+.col30{width: 33%;}
+.col90{width: 90%;}
+div.my-header h1{size: 40px; color: white;text-shadow: 2px 3px 3px darkmagenta;}
+input{padding: 10px;}
+input[type="text"]{width: 60%;}
+input[type="button"]{background-color: red;border: 1px solid red;}
+section.course{width: 80%;margin: 5px auto;}
+div.item{width: 25%;padding: 20px;position: relative;}
+div.item h1{background: linear-gradient(blue,white);color: white;padding: 10px;}
+div.item img{width: 70%;}
+div.item >div {text-align: center;background: linear-gradient(orange,darkblue);}
+div.items {display: flex;flex-wrap: wrap;}
+ul.menucon{list-style-type: none;margin: 0;padding: 0;}
+aside.ads{position: fixed;}
+aside.ads img{transition: transform 0.5s;} 
+aside.ads img:hover{transform: scale(1.2);}
+footer{background:linear-gradient(orange,#CC3300)}
+div.my-footer{display: flex;padding: 10px;color: white;}
+div.detail{position: absolute;background: rgba(0, 0, 0, 0.6) !important; text-align: left !important;top: 40px;bottom: 20px;right: 100%;left: 20px;color: white;padding-top: 10%;overflow: hidden;transition: right 1s;}
+div.item:hover div.detail{right: 20px;padding-left: 5%;}
+h1.subject >span {display: block;width: 30%;background-color: darkorange;padding: 20px;border-radius: 20px 20px 0 0;}
+h1.subject::after   {
+    content: " ";
+    background-color: darkorange;
+    width: 100%;
+    height: 5px;
+    display: block;
+}
+.sub:hover{background-color: darkorange;}
+div.post img{width: 100%;}
+div.post {display: flex;}
+.submenu{display: none;width: 100%;z-index: 99;}
+.submenu::after{content: " ";border-width: 15px;border-style: solid;border-color: transparent transparent #CC3300 transparent;position: absolute;bottom: 100%;left: 45% ;}
+.sub:hover .submenu{display: block;position: absolute;;background-color: #CC3300;} 
